@@ -12,7 +12,11 @@
 
 let message; 
 message = "Moo!"; 
-console.log("Using let:", message); 
+console.log( message); 
 
 
-const constMessage; 
+const constMessage = "Moo";
+console.log(constMessage); 
+
+//a la variable de tipus let, no cal inicialitzarla en el moment de la definició.
+//al contrari la variable tipus const, sha de inicialitzar en el moment de la definicio perque no permet tenir una death zone
