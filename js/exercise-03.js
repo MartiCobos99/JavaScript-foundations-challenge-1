@@ -17,3 +17,4 @@ function getTypeOf(value) {
   console.log(getTypeOf(true));      
   console.log(getTypeOf(null));      
   console.log(getTypeOf(undefined)); 
+  

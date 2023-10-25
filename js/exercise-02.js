@@ -10,13 +10,11 @@
 
 //RESPONSE:
 
-let message; 
-message = "Moo!"; 
-console.log( message); 
-
+const message = "Moo!";
+console.log(message);
 
 const constMessage = "Moo";
-console.log(constMessage); 
+console.log(constMessage);
 
-//a la variable de tipus let, no cal inicialitzarla en el moment de la definició.
-//al contrari la variable tipus const, sha de inicialitzar en el moment de la definicio perque no permet tenir una death zone
+//in variable of let type, no need to initialize it at definition time.
+//on the contrary, the const type variable must be initialized at the time of definition because it does not allow having a death zone.
