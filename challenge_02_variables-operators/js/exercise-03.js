@@ -4,17 +4,14 @@
     2. Log the result of any function call.
 */
 
-
 //RESPONSE:
 
-
 function getTypeOf(value) {
-    return typeof value;
-  }
-  
-  console.log(getTypeOf("Hola"));   
-  console.log(getTypeOf(18));        
-  console.log(getTypeOf(true));      
-  console.log(getTypeOf(null));      
-  console.log(getTypeOf(undefined)); 
-  
+  return typeof value;
+}
+
+console.log(getTypeOf("Hola"));
+console.log(getTypeOf(18));
+console.log(getTypeOf(true));
+console.log(getTypeOf(null));
+console.log(getTypeOf(undefined));
