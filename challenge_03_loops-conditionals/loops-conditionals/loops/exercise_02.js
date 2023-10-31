@@ -18,3 +18,21 @@
     You made it!
     All, done!
 */
+
+/* RESPONSE */
+
+for (let i = 1; i <= 100; i++) {
+  if (i % 10 === 0) {
+    console.log("Checkpoint!", i);
+  }
+
+  if (i === 50) {
+    console.log("Half way there!");
+  }
+
+  if (i === 100) {
+    console.log("You made it!");
+  }
+}
+
+console.log("All, done!");
