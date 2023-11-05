@@ -11,11 +11,13 @@
 /* RESPONSE */
 
 let loggedIn = false;
+let loginAttempts = 0;
 
 while (!loggedIn) {
   console.log("Incorrect login credentials");
+  loginAttempts++;
 
-  if (loggedIn === false) {
+  if (loginAttempts === 3) {
     loggedIn = true;
   }
 }
