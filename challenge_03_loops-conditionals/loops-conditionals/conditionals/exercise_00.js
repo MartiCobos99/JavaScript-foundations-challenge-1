@@ -13,7 +13,7 @@
 
 console.log("--- Animal Checker Program ---");
 
-let animal = "dog"; // Change "dog" to any other value you want to test
+let animal = "dog";
 
 if (animal === "cat") {
   console.log("Meow!");
@@ -23,7 +23,7 @@ if (animal === "cat") {
   console.log("Must be an alien");
 }
 
-animal = "cat"; // Change "dog" to any other value you want to test
+animal = "cat";
 
 if (animal === "cat") {
   console.log("Meow!");
@@ -33,7 +33,7 @@ if (animal === "cat") {
   console.log("Must be an alien");
 }
 
-animal = "Kiwi"; // Change "dog" to any other value you want to test
+animal = "Kiwi";
 
 if (animal === "cat") {
   console.log("Meow!");
