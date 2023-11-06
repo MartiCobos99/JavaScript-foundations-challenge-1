@@ -21,4 +21,9 @@ if (age < 3) {
   console.log("What? How did this happen!?");
 }
 
-/* To fix this and get the desired output, you should use if-else if-else structure instead of multiple independent if statements.*/
+/* 
+The bug is due to the order and overlapping conditions. 
+The "age >= 3" condition covers all ages 3 and above, so the subsequent conditions are never reached. 
+Reorder the conditions from most specific to most general to fix the issue.
+To fix this and get the desired output, you should use if-else if-else structure instead of multiple independent if statements.
+*/

@@ -23,4 +23,24 @@ if (animal === "cat") {
   console.log("Must be an alien");
 }
 
+animal = "cat"; // Change "dog" to any other value you want to test
+
+if (animal === "cat") {
+  console.log("Meow!");
+} else if (animal === "dog") {
+  console.log("Woof!");
+} else {
+  console.log("Must be an alien");
+}
+
+animal = "Kiwi"; // Change "dog" to any other value you want to test
+
+if (animal === "cat") {
+  console.log("Meow!");
+} else if (animal === "dog") {
+  console.log("Woof!");
+} else {
+  console.log("Must be an alien");
+}
+
 console.log("--- Animal check complete ---");
