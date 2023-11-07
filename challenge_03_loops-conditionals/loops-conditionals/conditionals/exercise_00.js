@@ -9,38 +9,36 @@
     8. Change animal to different values to make sure it works in all cases
 */
 
-/* RESPONSE */
+/**
+ * sayHello
+ */
+const sayHello = function (animal) {
+  let greeting = "Must be an alien";
 
+  if (animal === "cat") {
+    greeting = "Meow";
+  }
+
+  if (animal === "dog") {
+    greeting = "Woof";
+  }
+
+  return greeting;
+};
+
+/**
+ * Program execution
+ */
+console.log("###############################");
 console.log("--- Animal Checker Program ---");
 
-let animal = "dog";
+let animal = "cat";
+console.log(sayHello(animal));
 
-if (animal === "cat") {
-  console.log("Meow!");
-} else if (animal === "dog") {
-  console.log("Woof!");
-} else {
-  console.log("Must be an alien");
-}
+animal = "dog";
+console.log(sayHello(animal));
 
-animal = "cat";
-
-if (animal === "cat") {
-  console.log("Meow!");
-} else if (animal === "dog") {
-  console.log("Woof!");
-} else {
-  console.log("Must be an alien");
-}
-
-animal = "Kiwi";
-
-if (animal === "cat") {
-  console.log("Meow!");
-} else if (animal === "dog") {
-  console.log("Woof!");
-} else {
-  console.log("Must be an alien");
-}
+animal = "frog";
+console.log(sayHello(animal));
 
 console.log("--- Animal check complete ---");
