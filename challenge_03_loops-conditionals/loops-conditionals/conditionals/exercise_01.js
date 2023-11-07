@@ -18,10 +18,6 @@ const evenOdd = function (number) {
   return result;
 };
 
-
-.
-
-
 /**
  * Program execution
  */
