@@ -11,11 +11,11 @@
 
 // RESPONSE:
 
-const str = "Hola"; 
-const num = 18;           
-const bool = true;          
-const nul = null;          
-const undef = undefined;    
+const str = "Hola";
+const num = 18;
+const bool = true;
+const nul = null;
+const undef = undefined;
 
 console.log("String:", str);
 console.log("Number:", num);

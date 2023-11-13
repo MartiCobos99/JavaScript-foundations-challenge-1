@@ -10,20 +10,19 @@
 
 */
 
-
 //RESPONSE:
 
-let name = "Martí Cobos"; 
+let name = "Martí Cobos";
 
-function updateValue(value) { 
+function updateValue(value) {
   name = value;
 }
 
-updateValue("Favorite Musician"); 
+updateValue("Favorite Musician");
 console.log("Name:", name);
 
-updateValue(true); 
+updateValue(true);
 console.log("Name:", name);
 
-updateValue(28); 
+updateValue(28);
 console.log("Name:", name);
